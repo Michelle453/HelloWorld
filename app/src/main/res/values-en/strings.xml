@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DC Comics</string>
+    <string name="rayo_macqueen">Rayo Macqueen</string>
+    <string name="descripcion">Personaje principal</string>
+    <string name="superman">Superman</string>
+    <string name="nombre_superman">Nombre: Clarc Kent</string>
+    <string name="poderes_superman">Powers: super strength, flight, invulnerability, super speed, heat vision, freeze breath, x-ray vision, superhuman hearing, healing factor"</string>
+</resources>

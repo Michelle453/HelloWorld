@@ -1,5 +1,27 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
+    <string name="app_name">DC Comics</string>
     <string name="rayo_macqueen">Rayo Macqueen</string>
     <string name="descripcion">Personaje principal</string>
+    <string name="superman">Superman</string>
+    <string name="nombre_superman">Nombre: Clarc Kent</string>
+    <string name="poderes_superman">Powers: super fuerza, vuelo, invulnerabilidad, rapidez, visión con calor, congelar, visión con rayos-xr"</string>
+    <string name="registro_titulo" translatable="false">Registro de un SuperHeroe:</string>
+    <string name="registrar_heroe" translatable="false">Registrar</string>
+    <string name="nombre_registro" translatable="false">Nombre:</string>
+    <string name="estatura" translatable="false">Estatura</string>
+    <string name="info" translatable="false">"Nombre: %s, estatura: %f", género: %s, poderes: %s, ciudad de namiento: %s</string>
+    <string name="genero" translatable="false">Género:</string>
+    <string name="masculino" translatable="false">Masculino</string>
+    <string name="femenino" translatable="false">Femenino</string>
+    <string name="poderes" translatable="false">Poderes</string>
+    <string name="super_fuerza" translatable="false">Super Fuerza</string>
+    <string name="super_velocidad" translatable="false">Super Velocidad</string>
+    <string name="telequenesis" translatable="false">Telequenesis</string>
+    <string name="ciudad" translatable="false">Ciudad de nacimiento:</string>
+    <string-array name="ciudades_nacimiento">
+        <item>Ciudad central</item>
+        <item>Ciudad gótica</item>
+        <item>Temiscira</item>
+        <item>Metropolis</item>
+    </string-array>
 </resources>
