@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
-            android:name=".ListSuperheroeActivity"
+            android:name=".list.ListSuperheroeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,11 +19,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegistroSuperheroeActivity"
+            android:name=".registro.RegistroSuperheroeActivity"
             android:exported="true">
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".detalle.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
     </application>

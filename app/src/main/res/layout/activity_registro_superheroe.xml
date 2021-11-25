@@ -5,7 +5,7 @@
     style="@style/Texto_normal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistroSuperheroeActivity">
+    tools:context=".registro.RegistroSuperheroeActivity">
 
     <TextView
         android:id="@+id/titulo_text_view"

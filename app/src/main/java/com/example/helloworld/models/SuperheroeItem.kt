@@ -1,7 +1,8 @@
-package com.example.helloworld
+package com.example.helloworld.models
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class SuperheroeItem(
     @SerializedName("alias")
@@ -18,4 +19,4 @@ data class SuperheroeItem(
     val powers: String,
     @SerializedName("urlPicture")
     val urlPicture: String
-)
+) : Serializable

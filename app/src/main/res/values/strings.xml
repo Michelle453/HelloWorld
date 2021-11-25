@@ -18,6 +18,12 @@
     <string name="super_velocidad" translatable="false">Super Velocidad</string>
     <string name="telequenesis" translatable="false">Telequenesis</string>
     <string name="ciudad" translatable="false">Ciudad de nacimiento:</string>
+    <string name="metropolis">Metropolis</string>
+    <string name="ocupacion">Ocupación:</string>
+    <string name="reportero">Reportero</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_superman">Facebook.com/superman</string>
+    <string name="subtitle_alias">Alias:</string>
     <string-array name="ciudades_nacimiento">
         <item>Ciudad central</item>
         <item>Ciudad gótica</item>

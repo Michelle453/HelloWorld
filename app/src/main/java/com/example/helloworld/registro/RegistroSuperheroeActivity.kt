@@ -1,9 +1,11 @@
-package com.example.helloworld
+package com.example.helloworld.registro
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
+import com.example.helloworld.detalle.MainActivity
+import com.example.helloworld.R
 import com.google.android.material.textfield.TextInputEditText
 
 
@@ -44,7 +46,7 @@ class RegistroSuperheroeActivity : AppCompatActivity() {
 
                 nombreTextView.text = getString(R.string.info, nombre, estatura, genero, poderes, ciudadNacimiento)
 
-                val intent = Intent(this,MainActivity::class.java)
+                val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             }
         }
