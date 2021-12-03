@@ -30,6 +30,14 @@ class SuperHeroesAdapter(
         return superHeroesList.size
 
     }
+
+    fun appendItems(newItems : ArrayList<SuperheroeItem>) {
+        superHeroesList.clear()
+        superHeroesList.addAll(newItems)
+        notifyDataSetChanged()
+
+    }
+
     class ViewHolder(itemView : View) :RecyclerView.ViewHolder(itemView){
         private var nameTextView : TextView = itemView.findViewById(R.id.name_text_view)
         private var aliasTextView : TextView = itemView.findViewById(R.id.alias_text_view)
