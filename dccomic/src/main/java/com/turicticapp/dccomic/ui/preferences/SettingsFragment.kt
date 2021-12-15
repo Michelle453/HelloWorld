@@ -1,11 +1,11 @@
-package com.turicticapp.dccomic.preferences
+package com.turicticapp.dccomic.ui.preferences
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.turicticapp.dccomic.R
-import com.turicticapp.dccomic.main.MainActivity
+import com.turicticapp.dccomic.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

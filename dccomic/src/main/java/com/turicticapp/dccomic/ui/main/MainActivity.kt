@@ -1,4 +1,4 @@
-package com.turicticapp.dccomic.main
+package com.turicticapp.dccomic.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.turicticapp.dccomic.R
-import com.turicticapp.dccomic.preferences.SettingsFragment
+import com.turicticapp.dccomic.ui.preferences.SettingsFragment
 
 
 class MainActivity : AppCompatActivity() {

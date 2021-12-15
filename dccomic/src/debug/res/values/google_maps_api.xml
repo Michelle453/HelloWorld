@@ -1,0 +1,9 @@
+<resources>
+    <!--
+
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=93:5E:17:45:0A:69:87:E8:50:23:4B:4B:B8:87:69:9D:39:4A:19:A4%3Bcom.turicticapp.dccomic
+
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB6HCUJAduuDfgrWvNVvwYtLznvF8WWWgI</string>
+</resources>

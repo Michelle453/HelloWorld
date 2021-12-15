@@ -1,4 +1,4 @@
-package com.turicticapp.dccomic.list
+package com.turicticapp.dccomic.ui.list
 
 
 import android.os.Bundle
@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.turicticapp.dccomic.databinding.FragmentListBinding
-import com.turicticapp.dccomic.main.MainActivity
+import com.turicticapp.dccomic.ui.main.MainActivity
 import com.turicticapp.dccomic.models.Superheroe
 import com.turicticapp.dccomic.models.SuperheroeItem
 
@@ -33,7 +33,10 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listViewModel.loadMockSuperheroesFromJson(context?.assets?.open("superheroes.json"))
+        //listViewModel.loadMockSuperheroesFromJson(context?.assets?.open("superheroes.json"))
+
+        listViewModel.getSuperheroeFromServer()
+
         listViewModel.onSuperheroesLoad.observe(viewLifecycleOwner, { result ->
             onSuperheroeLoaderSubscribe(result)
         })

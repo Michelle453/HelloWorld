@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_list"
-        android:name="com.turicticapp.dccomic.list.ListFragment"
+        android:name="com.turicticapp.dccomic.ui.list.ListFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
@@ -16,11 +16,19 @@
     </fragment>
     <fragment
         android:id="@+id/navegation_detail"
-        android:name="com.turicticapp.dccomic.detail.DetailFragment"
+        android:name="com.turicticapp.dccomic.ui.detail.DetailFragment"
         android:label="DetailFragment"
         tools:layout="@layout/fragment_detail">
         <argument
             android:name="superheroe"
             app:argType="com.turicticapp.dccomic.models.SuperheroeItem" />
+        <action
+            android:id="@+id/action_navegation_detail_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.turicticapp.dccomic.ui.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>

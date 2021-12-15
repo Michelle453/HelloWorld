@@ -1,4 +1,4 @@
-package com.turicticapp.dccomic.list
+package com.turicticapp.dccomic.ui.list
 
 import android.view.LayoutInflater
 import android.view.View
